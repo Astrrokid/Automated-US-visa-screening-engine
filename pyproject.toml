@@ -1,0 +1,44 @@
+[project]
+name = "automated-us-visa-screening-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    ".",
+]
+
+[tool.uv.sources]
+automated-us-visa-screening-engine = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "automated-us-visa-screening-engine",
+    "boto3>=1.43.3",
+    "botocore>=1.43.3",
+    "catboost>=1.2.10",
+    "dill>=0.4.1",
+    "evidently==0.2.8",
+    "fastapi>=0.125.0",
+    "from-root>=1.3.0",
+    "imblearn>=0.0",
+    "ipykernel>=7.2.0",
+    "jinja2>=3.1.6",
+    "matplotlib>=3.10.9",
+    "mypy-boto3-s3>=1.43.0",
+    "neuro-mf>=0.0.5",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "pymongo>=4.17.0",
+    "python-multipart>=0.0.27",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "uvicorn>=0.46.0",
+    "xgboost>=3.2.0",
+]
