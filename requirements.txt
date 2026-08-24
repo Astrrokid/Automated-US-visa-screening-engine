@@ -1,8 +1,8 @@
 ipykernel
 pandas
-numpy
+numpy==1.26.4
 matplotlib
-plotly
+plotly>=5.10.0,<6
 seaborn
 scipy
 scikit-learn
@@ -11,7 +11,7 @@ xgboost
 catboost
 pymongo
 from_root
-evidently==0.2.8
+evidently==0.7.21
 dill
 PyYAML
 neuro_mf
