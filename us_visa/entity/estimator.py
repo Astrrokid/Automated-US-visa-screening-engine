@@ -9,7 +9,7 @@ class TargetValueMapping:
     def __init__(self):
         try:
             self.mapping = {
-                "Approved": 1,
+                "Certified": 1,
                 "Denied": 0
             }
         except Exception as e:
